@@ -26,9 +26,9 @@ module.exports = {
       },
       {
         protocol: 'https',
-        hostname: 'static-cdn.jtvnw.net',
+        hostname: 'images.pexels.com',
         port: '',
-        pathname: '/**',
+        pathname: '/photos/**',
       },
     ],
   },
