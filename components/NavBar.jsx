@@ -194,10 +194,10 @@ const NavBar = () => {
         {/* Mobile Menu */}
         <div className={nav ? " md:hidden fixed top-0 left-0 w-full h-screen bg-[#0e0e10] flex justify-center items-center ease-in duration-300" : "md:hidden fixed top-[-100%] left-0 w-full h-screen bg-[#0e0e10] flex justify-center items-center ease-in duration-300"}>
             <ul className='text-center'>
-                <li className='p-4 text-3xl font-bold'><Link href="/">Home</Link></li>
-                <li className='p-4 text-3xl font-bold'><Link href="/">Live Channels</Link></li>
-                <li className='p-4 text-3xl font-bold'><Link href="/">Top Categories</Link></li>
-                <li className='p-4 text-3xl font-bold'><Link href="/Account">Account</Link></li>
+                <li onClick={()=>setNav(false)} className='p-4 text-3xl font-bold'><Link href="/">Home</Link></li>
+                <li onClick={()=>setNav(false)} className='p-4 text-3xl font-bold'><Link href="/">Live Channels</Link></li>
+                <li onClick={()=>setNav(false)} className='p-4 text-3xl font-bold'><Link href="/">Top Categories</Link></li>
+                <li onClick={()=>setNav(false)} className='p-4 text-3xl font-bold'><Link href="/Account">Account</Link></li>
             </ul>
         </div>
     </div>

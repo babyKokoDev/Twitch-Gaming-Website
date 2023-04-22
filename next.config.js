@@ -24,6 +24,12 @@ module.exports = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'static-cdn.jtvnw.net',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 }
