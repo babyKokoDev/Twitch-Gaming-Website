@@ -7,7 +7,7 @@ import Categories from './Categories'
 
 const MainPage = () => {
   return (
-       <div className='absolute left-[64px] xl:left-[220px]'>
+       <div className='absolute left-[64px] xl:left-[250px] pl-3'>
         <Hero />
         <LiveChannels />
         <IconBar />

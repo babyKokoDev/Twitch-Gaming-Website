@@ -9,7 +9,7 @@ import { Scrollbar } from 'react-scrollbars-custom'
 const SideMenu = () => {
     return (
        
-        <div className='scrollbar-hide overflow-y-auto sm:hover:scrollbar-default fixed w-14 sm:w-16 xl:w-[15rem] h-screen   p-2 bg-[#0e0e10]'>
+        <div className='scrollbar-hide overflow-y-auto sm:hover:scrollbar-default fixed w-14 sm:w-16 xl:w-[16rem] h-screen p-2 bg-[#0e0e10]'>
             <div>
                 <p className='hidden xl:flex uppercase font-bold text-sm pb-4'>Recommended Channels</p>
                 <p><RiMovieLine size={20} className='xl:hidden justify-center w-full' /></p>
