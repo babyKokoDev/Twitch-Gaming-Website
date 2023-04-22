@@ -70,7 +70,7 @@ const LiveChannels = () => {
         />
         <LiveChannelItem
           img={Live8}
-          profile_img='https://static-cdn.jtvnw.net/jtv_user_pictures/b3fc1f16-0818-4121-8711-c31b9469bc21-profile_image-50x50.png'
+          profile_img='https://images.pexels.com/photos/3970387/pexels-photo-3970387.jpeg?auto=compress&cs=tinysrgb&w=600'
           title='Covert_Muffin teaching Star Wars...'
           user='JamesDoneQuick'
           game='Star Wars: Jedi Knight II - Jedi Outcast'
