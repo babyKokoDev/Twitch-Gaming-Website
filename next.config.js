@@ -30,6 +30,12 @@ module.exports = {
         port: '',
         pathname: '/photos/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'static-cdn.jtvnw.net',
+        port: '',
+        pathname: '/ttv-boxart/**',
+      },
     ],
   },
 }
